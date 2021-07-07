@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B94F7F4269620A800B5A49F /* NYTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B94F7F3269620A800B5A49F /* NYTAPI.swift */; };
+		5B94F7F5269620A800B5A49F /* NYTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B94F7F3269620A800B5A49F /* NYTAPI.swift */; };
+		5B94F7F6269620A800B5A49F /* NYTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B94F7F3269620A800B5A49F /* NYTAPI.swift */; };
+		5B94F7F7269620A800B5A49F /* NYTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B94F7F3269620A800B5A49F /* NYTAPI.swift */; };
 		5BBA42C42695E74C00D9221C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA42C32695E74C00D9221C /* Tests_iOS.swift */; };
 		5BBA42CF2695E74C00D9221C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA42CE2695E74C00D9221C /* Tests_macOS.swift */; };
 		5BBA42D12695E74C00D9221C /* HealthViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA42A82695E74A00D9221C /* HealthViewApp.swift */; };
@@ -38,6 +42,7 @@
 /* Begin PBXFileReference section */
 		138B90C6765C8B4DB7882C42 /* libPods-HealthView (iOS).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthView (iOS).a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9F882511E8669242F2E0C2 /* Pods-HealthView (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthView (iOS).debug.xcconfig"; path = "Target Support Files/Pods-HealthView (iOS)/Pods-HealthView (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		5B94F7F3269620A800B5A49F /* NYTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTAPI.swift; sourceTree = "<group>"; };
 		5BBA42A82695E74A00D9221C /* HealthViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthViewApp.swift; sourceTree = "<group>"; };
 		5BBA42A92695E74A00D9221C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5BBA42AA2695E74C00D9221C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,7 +99,6 @@
 				1C9F882511E8669242F2E0C2 /* Pods-HealthView (iOS).debug.xcconfig */,
 				F83F9F59666372DF44466B0F /* Pods-HealthView (iOS).release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -118,6 +122,7 @@
 				5BBA42A82695E74A00D9221C /* HealthViewApp.swift */,
 				5BBA42A92695E74A00D9221C /* ContentView.swift */,
 				5BBA42AA2695E74C00D9221C /* Assets.xcassets */,
+				5B94F7F3269620A800B5A49F /* NYTAPI.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -359,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B94F7F4269620A800B5A49F /* NYTAPI.swift in Sources */,
 				5BBA42D32695E74C00D9221C /* ContentView.swift in Sources */,
 				5BBA42D12695E74C00D9221C /* HealthViewApp.swift in Sources */,
 			);
@@ -368,6 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B94F7F5269620A800B5A49F /* NYTAPI.swift in Sources */,
 				5BBA42D42695E74C00D9221C /* ContentView.swift in Sources */,
 				5BBA42D22695E74C00D9221C /* HealthViewApp.swift in Sources */,
 			);
@@ -377,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B94F7F6269620A800B5A49F /* NYTAPI.swift in Sources */,
 				5BBA42C42695E74C00D9221C /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B94F7F7269620A800B5A49F /* NYTAPI.swift in Sources */,
 				5BBA42CF2695E74C00D9221C /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
