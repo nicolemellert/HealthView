@@ -15,6 +15,7 @@
 		5BBA42D42695E74C00D9221C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA42A92695E74A00D9221C /* ContentView.swift */; };
 		5BBA42D52695E74C00D9221C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBA42AA2695E74C00D9221C /* Assets.xcassets */; };
 		5BBA42D62695E74C00D9221C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBA42AA2695E74C00D9221C /* Assets.xcassets */; };
+		AA47017D9FA811367965FCE6 /* libPods-HealthView (iOS).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 138B90C6765C8B4DB7882C42 /* libPods-HealthView (iOS).a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		138B90C6765C8B4DB7882C42 /* libPods-HealthView (iOS).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthView (iOS).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C9F882511E8669242F2E0C2 /* Pods-HealthView (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthView (iOS).debug.xcconfig"; path = "Target Support Files/Pods-HealthView (iOS)/Pods-HealthView (iOS).debug.xcconfig"; sourceTree = "<group>"; };
 		5BBA42A82695E74A00D9221C /* HealthViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthViewApp.swift; sourceTree = "<group>"; };
 		5BBA42A92695E74A00D9221C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5BBA42AA2695E74C00D9221C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		5BBA42CA2695E74C00D9221C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBA42CE2695E74C00D9221C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		5BBA42D02695E74C00D9221C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F83F9F59666372DF44466B0F /* Pods-HealthView (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthView (iOS).release.xcconfig"; path = "Target Support Files/Pods-HealthView (iOS)/Pods-HealthView (iOS).release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA47017D9FA811367965FCE6 /* libPods-HealthView (iOS).a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2765D77CCFF69C6F774CC7DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C9F882511E8669242F2E0C2 /* Pods-HealthView (iOS).debug.xcconfig */,
+				F83F9F59666372DF44466B0F /* Pods-HealthView (iOS).release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5BBA42A22695E74A00D9221C = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +107,8 @@
 				5BBA42C22695E74C00D9221C /* Tests iOS */,
 				5BBA42CD2695E74C00D9221C /* Tests macOS */,
 				5BBA42B02695E74C00D9221C /* Products */,
+				2765D77CCFF69C6F774CC7DA /* Pods */,
+				6D05474F8C8453B6567240F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +168,14 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		6D05474F8C8453B6567240F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				138B90C6765C8B4DB7882C42 /* libPods-HealthView (iOS).a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,6 +183,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BBA42D92695E74C00D9221C /* Build configuration list for PBXNativeTarget "HealthView (iOS)" */;
 			buildPhases = (
+				0F91DFA5A855D917F00A65DE /* [CP] Check Pods Manifest.lock */,
 				5BBA42AB2695E74C00D9221C /* Sources */,
 				5BBA42AC2695E74C00D9221C /* Frameworks */,
 				5BBA42AD2695E74C00D9221C /* Resources */,
@@ -302,6 +328,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F91DFA5A855D917F00A65DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthView (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5BBA42AB2695E74C00D9221C /* Sources */ = {
@@ -467,6 +518,7 @@
 		};
 		5BBA42DA2695E74C00D9221C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C9F882511E8669242F2E0C2 /* Pods-HealthView (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -489,6 +541,7 @@
 		};
 		5BBA42DB2695E74C00D9221C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83F9F59666372DF44466B0F /* Pods-HealthView (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
